@@ -18,5 +18,9 @@ return {
     },
     config = function()
         vim.keymap.set("n", "<leader>t", ":Neotree filesystem toggle right<CR>")
+        require("nvim-web-devicons").setup({
+            color_icons = false, -- disables all colors
+            default = true,
+        })
     end,
 }

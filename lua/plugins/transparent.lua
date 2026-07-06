@@ -7,5 +7,6 @@ return {
         require('transparent').clear_prefix('trouble')
         require('transparent').clear_prefix('lazy')
         require('transparent').clear_prefix('mason')
+        require('transparent').clear_prefix('barbar')
     end
 }

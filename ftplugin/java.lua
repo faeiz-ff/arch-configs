@@ -16,7 +16,7 @@ local mason = vim.fn.stdpath("data") .. "/mason/packages"
 
 local jdtls_path = mason .. "/jdtls"
 local launcher = vim.fn.glob(jdtls_path .. "/plugins/org.eclipse.equinox.launcher_*.jar")
-local config_dir = jdtls_path .. "/config_windows"
+local config_dir = jdtls_path .. "/config_linux"
 
 -- completion capabilities
 local capabilities = require("cmp_nvim_lsp").default_capabilities()
